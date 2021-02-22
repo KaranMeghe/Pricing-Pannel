@@ -16,4 +16,11 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+
+      @include respond (iPhone-se){
+        background:none;
+        flex-direction: column;
+        padding: 0;
+      }
     }
+

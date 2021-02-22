@@ -1,0 +1,7 @@
+
+@mixin respond ($breakpoint) {
+    @if $breakpoint == iPhone-se{
+        @media (max-width: 500px) { @content };
+    }
+    
+}
