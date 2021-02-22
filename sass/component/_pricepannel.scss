@@ -24,6 +24,10 @@
     &__plan{
     padding: 2.5rem 5rem;   
     border-right: 1px solid #e1f1ff;
+
+    @include respond (iPhone-se){
+        border-bottom: 1px solid #e1f1ff;
+    }
    
     }
 
