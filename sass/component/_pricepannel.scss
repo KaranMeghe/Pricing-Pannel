@@ -1,0 +1,87 @@
+//pannel
+.panel{
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1.5rem 2.5rem;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+   
+}
+
+//pricing-pannel
+.pricing{
+   
+    &__plan{
+    padding: 2.5rem 5rem;   
+    border-right: 1px solid #e1f1ff;
+   
+    }
+
+    &__img{
+    max-width: 100%;
+    margin-bottom: 2.5rem;
+    }
+
+    &__header{
+     color: #888;
+     font-weight: 600;
+     letter-spacing: .1rem;
+    }
+
+    &__features{
+     margin: 5rem 0 2.5rem;
+     color: #016ff9;
+    }
+    &__features-item{
+    list-style: none;
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    word-spacing: .6rem;
+    border-top: 1px solid #e1f1ff;
+
+    &:last-child{
+        border-bottom: 1px solid #e1f1ff;
+    }
+    }
+    &__price{
+        color: #016ff9;
+        display: block;
+        font-size: 3.2rem;
+        font-weight: 700;
+    }
+    &__button{
+       color:#348efe;
+       border: 1px solid #9dd1ff;
+       padding: 1.5rem 3.5rem;
+       margin: 2.5rem 0;
+       display: inline-block;
+       border-radius: 1.5rem;
+       text-decoration: none;
+       transition: all 0.3s;
+    
+       &--blue{
+        background-color: #48aaff;
+        color: #fff;
+        transition: all 0.3s;
+       }
+      
+    }
+     
+    &__button:hover{
+        color: #fff;
+        background: #48aaff;
+    }
+
+    &__button--blue:hover{
+        color: #48aaff;
+        background: #fff;
+    }
+    
+    
+}

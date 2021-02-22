@@ -1,0 +1,114 @@
+.panel {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem 2.5rem;
+  width: 100%;
+  max-width: 960px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.pricing__plan {
+  padding: 2.5rem 5rem;
+  border-right: 1px solid #e1f1ff;
+}
+
+.pricing__img {
+  max-width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.pricing__header {
+  color: #888;
+  font-weight: 600;
+  letter-spacing: .1rem;
+}
+
+.pricing__features {
+  margin: 5rem 0 2.5rem;
+  color: #016ff9;
+}
+
+.pricing__features-item {
+  list-style: none;
+  padding: 1.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  word-spacing: .6rem;
+  border-top: 1px solid #e1f1ff;
+}
+
+.pricing__features-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing__price {
+  color: #016ff9;
+  display: block;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.pricing__button {
+  color: #348efe;
+  border: 1px solid #9dd1ff;
+  padding: 1.5rem 3.5rem;
+  margin: 2.5rem 0;
+  display: inline-block;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pricing__button--blue {
+  background-color: #48aaff;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.pricing__button:hover {
+  color: #fff;
+  background: #48aaff;
+}
+
+.pricing__button--blue:hover {
+  color: #48aaff;
+  background: #fff;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 3rem;
+  background-color: #60a9ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+/*# sourceMappingURL=main.css.map */
